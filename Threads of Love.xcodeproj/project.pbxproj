@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		765A201C2DD06AC700D9AD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 765A1FFE2DD06AC500D9AD4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 765A20052DD06AC500D9AD4F;
+			remoteInfo = "Threads of Love";
+		};
+		765A20262DD06AC700D9AD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 765A1FFE2DD06AC500D9AD4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 765A20052DD06AC500D9AD4F;
+			remoteInfo = "Threads of Love";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		765A20062DD06AC500D9AD4F /* Threads of Love.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Threads of Love.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		765A201B2DD06AC700D9AD4F /* Threads of LoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Threads of LoveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		765A20252DD06AC700D9AD4F /* Threads of LoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Threads of LoveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		765A20082DD06AC500D9AD4F /* Threads of Love */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Threads of Love";
+			sourceTree = "<group>";
+		};
+		765A201E2DD06AC700D9AD4F /* Threads of LoveTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Threads of LoveTests";
+			sourceTree = "<group>";
+		};
+		765A20282DD06AC700D9AD4F /* Threads of LoveUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Threads of LoveUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		765A20032DD06AC500D9AD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765A20182DD06AC700D9AD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765A20222DD06AC700D9AD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		765A1FFD2DD06AC500D9AD4F = {
+			isa = PBXGroup;
+			children = (
+				765A20082DD06AC500D9AD4F /* Threads of Love */,
+				765A201E2DD06AC700D9AD4F /* Threads of LoveTests */,
+				765A20282DD06AC700D9AD4F /* Threads of LoveUITests */,
+				765A20072DD06AC500D9AD4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		765A20072DD06AC500D9AD4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				765A20062DD06AC500D9AD4F /* Threads of Love.app */,
+				765A201B2DD06AC700D9AD4F /* Threads of LoveTests.xctest */,
+				765A20252DD06AC700D9AD4F /* Threads of LoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		765A20052DD06AC500D9AD4F /* Threads of Love */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 765A202F2DD06AC700D9AD4F /* Build configuration list for PBXNativeTarget "Threads of Love" */;
+			buildPhases = (
+				765A20022DD06AC500D9AD4F /* Sources */,
+				765A20032DD06AC500D9AD4F /* Frameworks */,
+				765A20042DD06AC500D9AD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				765A20082DD06AC500D9AD4F /* Threads of Love */,
+			);
+			name = "Threads of Love";
+			packageProductDependencies = (
+			);
+			productName = "Threads of Love";
+			productReference = 765A20062DD06AC500D9AD4F /* Threads of Love.app */;
+			productType = "com.apple.product-type.application";
+		};
+		765A201A2DD06AC700D9AD4F /* Threads of LoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 765A20322DD06AC700D9AD4F /* Build configuration list for PBXNativeTarget "Threads of LoveTests" */;
+			buildPhases = (
+				765A20172DD06AC700D9AD4F /* Sources */,
+				765A20182DD06AC700D9AD4F /* Frameworks */,
+				765A20192DD06AC700D9AD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				765A201D2DD06AC700D9AD4F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				765A201E2DD06AC700D9AD4F /* Threads of LoveTests */,
+			);
+			name = "Threads of LoveTests";
+			packageProductDependencies = (
+			);
+			productName = "Threads of LoveTests";
+			productReference = 765A201B2DD06AC700D9AD4F /* Threads of LoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		765A20242DD06AC700D9AD4F /* Threads of LoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 765A20352DD06AC700D9AD4F /* Build configuration list for PBXNativeTarget "Threads of LoveUITests" */;
+			buildPhases = (
+				765A20212DD06AC700D9AD4F /* Sources */,
+				765A20222DD06AC700D9AD4F /* Frameworks */,
+				765A20232DD06AC700D9AD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				765A20272DD06AC700D9AD4F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				765A20282DD06AC700D9AD4F /* Threads of LoveUITests */,
+			);
+			name = "Threads of LoveUITests";
+			packageProductDependencies = (
+			);
+			productName = "Threads of LoveUITests";
+			productReference = 765A20252DD06AC700D9AD4F /* Threads of LoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		765A1FFE2DD06AC500D9AD4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					765A20052DD06AC500D9AD4F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					765A201A2DD06AC700D9AD4F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 765A20052DD06AC500D9AD4F;
+					};
+					765A20242DD06AC700D9AD4F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 765A20052DD06AC500D9AD4F;
+					};
+				};
+			};
+			buildConfigurationList = 765A20012DD06AC500D9AD4F /* Build configuration list for PBXProject "Threads of Love" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 765A1FFD2DD06AC500D9AD4F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 765A20072DD06AC500D9AD4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				765A20052DD06AC500D9AD4F /* Threads of Love */,
+				765A201A2DD06AC700D9AD4F /* Threads of LoveTests */,
+				765A20242DD06AC700D9AD4F /* Threads of LoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		765A20042DD06AC500D9AD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765A20192DD06AC700D9AD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765A20232DD06AC700D9AD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		765A20022DD06AC500D9AD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765A20172DD06AC700D9AD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765A20212DD06AC700D9AD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		765A201D2DD06AC700D9AD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 765A20052DD06AC500D9AD4F /* Threads of Love */;
+			targetProxy = 765A201C2DD06AC700D9AD4F /* PBXContainerItemProxy */;
+		};
+		765A20272DD06AC700D9AD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 765A20052DD06AC500D9AD4F /* Threads of Love */;
+			targetProxy = 765A20262DD06AC700D9AD4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		765A202D2DD06AC700D9AD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		765A202E2DD06AC700D9AD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		765A20302DD06AC700D9AD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Threads of Love/Preview Content\"";
+				DEVELOPMENT_TEAM = FVTJHJJ63X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adzterinc.Threads-of-Love";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		765A20312DD06AC700D9AD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Threads of Love/Preview Content\"";
+				DEVELOPMENT_TEAM = FVTJHJJ63X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adzterinc.Threads-of-Love";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		765A20332DD06AC700D9AD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FVTJHJJ63X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adzterinc.Threads-of-LoveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Threads of Love.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Threads of Love";
+			};
+			name = Debug;
+		};
+		765A20342DD06AC700D9AD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FVTJHJJ63X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adzterinc.Threads-of-LoveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Threads of Love.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Threads of Love";
+			};
+			name = Release;
+		};
+		765A20362DD06AC700D9AD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FVTJHJJ63X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adzterinc.Threads-of-LoveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Threads of Love";
+			};
+			name = Debug;
+		};
+		765A20372DD06AC700D9AD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FVTJHJJ63X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adzterinc.Threads-of-LoveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Threads of Love";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		765A20012DD06AC500D9AD4F /* Build configuration list for PBXProject "Threads of Love" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				765A202D2DD06AC700D9AD4F /* Debug */,
+				765A202E2DD06AC700D9AD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		765A202F2DD06AC700D9AD4F /* Build configuration list for PBXNativeTarget "Threads of Love" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				765A20302DD06AC700D9AD4F /* Debug */,
+				765A20312DD06AC700D9AD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		765A20322DD06AC700D9AD4F /* Build configuration list for PBXNativeTarget "Threads of LoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				765A20332DD06AC700D9AD4F /* Debug */,
+				765A20342DD06AC700D9AD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		765A20352DD06AC700D9AD4F /* Build configuration list for PBXNativeTarget "Threads of LoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				765A20362DD06AC700D9AD4F /* Debug */,
+				765A20372DD06AC700D9AD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 765A1FFE2DD06AC500D9AD4F /* Project object */;
+}
