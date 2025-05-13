@@ -6,13 +6,24 @@
 //
 
 import SwiftUI
+import Foundation
 
-struct UserContentListViewModel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+class UserContentListViewModel: ObservableObject {
+    @Published var threads = [Thread]()
+    let user: User
+    
+    init(user: User) {
+        self.user = user
+        Task { try await fetchUserThreads() }
     }
-}
-
-#Preview {
-    UserContentListViewModel()
+    
+    @MainActor
+    func fetchUserThreads() async throws {
+        var threads = try await ThreadService.fetchUserThreads(uid: user.id)
+        
+        for i in 0 ..< threads.count {
+            threads[i].user = self.user
+        }
+        self.threads = threads
+    }
 }

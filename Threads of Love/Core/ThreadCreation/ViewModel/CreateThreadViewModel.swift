@@ -6,13 +6,14 @@
 //
 
 import SwiftUI
+import Firebase
+import FirebaseAuth
 
-struct ThreadCreationViewModel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+class CreateThreadViewModel: ObservableObject {
+    @Published var caption = ""
+    func uploadThread(caption: String) async throws {
+        guard let uid = Auth.auth().currentUser?.uid else { return }
+        let thread = Thread(ownerUid: uid, caption: caption, timestamp: Timestamp(), likes: 0)
+        try await ThreadService.uploadThread(thread)
     }
-}
-
-#Preview {
-    ThreadCreationViewModel()
 }

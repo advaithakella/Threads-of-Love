@@ -5,14 +5,12 @@
 //  Created by Adzter on 5/11/25.
 //
 
-import SwiftUI
+import Firebase
 
-struct Timestamp: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+extension Timestamp {
+    func timeAgo() -> String {
+        let formatter = RelativeDateTimeFormatter()
+        formatter.unitsStyle = .abbreviated
+        return formatter.localizedString(for: dateValue(), relativeTo: Date())
     }
-}
-
-#Preview {
-    Timestamp()
 }
